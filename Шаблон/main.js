@@ -10,7 +10,7 @@ $(".mail-btn").on("click touchstart", function () {
 
 // Бургер меню
 $(function(){
-    $('#nav-toggle').on('click', function() {
+    $('.menuToggle').on('click', function() {
         $(this).toggleClass("active");
        $('.menu').slideToggle(300, function(){
             if( $(this).css('display') === "none"){
