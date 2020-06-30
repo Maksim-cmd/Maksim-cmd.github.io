@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <title>О нас</title>
+</head>
+<body>
+    <div class="wrapper">
+
+         <!-- Шапка -->
+         <div class="header">
+            <div class="header__logo">
+              <a href="index.html"><img src="image/Logo.png"></a>
+            </div>
+            <div class="header__nav">
+                <div class="header__nav__central">
+                    <div class="header__seach">
+                        <div class="block__seach">
+                            <input type="search" name="q" placeholder="Поиск...">
+                            <input type="submit" value="">
+                        </div>
+                    </div>
+                    <div class="header__menu">
+                        <div class="heder__menu">
+                            <ul class="menu clearfix">
+                                <li><a class="nav_link" href="index.html">Главная</a></li>
+                                <li><a class="nav_link" href="about_us.html">О нас</a></li>
+                                <li><a class="nav_link" href="partners.html">Партнеры</a></li>
+                                <li><a class="nav_link" href="services.html">Услуги</a></li>
+                                <li><a class="nav_link" href="contact.html">Контакты</a></li>
+                                <div class="block__seach1">
+                                    <input type="search" name="q" placeholder="Поиск...">
+                                    <input type="submit" value="">
+                                </div>
+                              </ul>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+            <div class="header__nav__contacts">
+                <div class="header__contact__block">
+                    <div class="header__contact__number">
+                        <img src="image/number.png">
+                        <p>+7926-322-87-11</p>
+                    </div>
+                    <div class="header__contact__email">
+                        <img src="image/email.png">
+                        <p>info@company-wizard.ru</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="menuToggle">
+                <a href="#"><img src="image/menu.png"></a>
+            </div> 
+        </div>
+
+
+        <!-- О нас -->
+        <div class="About_us">
+            <div class="About_us__content">
+                <div class="About_us__title">
+                    <div class="title">
+                        <p class="title__one">КОМПАНИЯ</p>
+                        <p class="title__two">ВИЗАРД</p>
+                    </div>
+                </div>
+                <div class="About_us__text">
+                    <h1>Кредо Компании ВИЗАРД – уверенно смотреть в будущее!</h1>
+                    <p>Работа с заказчиками построена на проектной основе.
+                     Проект начинается с аудита информационных систем и разработки решений,
+                    отвечающих требованиям бизнеса и учитывающих долгосрочные перспективы развития.</p>
+                    <p>Специалисты нашей компании осуществляют внедрение и реализацию проекта,
+                     а в дальнейшем сопровождают внедренные решения. Основными критериями при выборе 
+                     решений являются повышение эффективности ИТ-инфраструктуры, сокращение эксплуатационных
+                    затрат и операционных издержек.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Панорама -->
+        <div class="View"></div>
+
+        <!-- Слайдер" -->
+        <div class="Choose_us">
+            <div class="Choose_us_title">
+                <h1>Почему выбирают нас?</h1>
+            </div>
+            <div class="slider">
+                <div class="item">
+                    <div class="slider__block">
+                        <div class="slider__block__ramka">
+                            <h2>ИНДИВИДУАЛЬНЫЙ ПОДХОД</h2>
+                            <p>Каждый проект - это результат воплощения пожеланий заказчика с опорой на
+                            наш профессиональный опыт и творческое видение.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider__block">
+                        <div class="slider__block__ramka">
+                            <h2>ДОСТУПНЫЕ ЦЕНЫ</h2>
+                            <p>Мы исходим из тех задач, которые перед нами ставит клиент.
+                             Думаем о том, как рационально использовать бюджет на реализацию и
+                             создать уникальный дизайн под конкретную задачу.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider__block">
+                        <div class="slider__block__ramka">
+                            <h2>КРЕАТИВНЫЕ ИДЕИ</h2>
+                            <p>В каждом нашем проекте заложен уникальный смысл и авторская идея.
+                                И поэтому среди наших работ Вы не найдете двух одинаковых зданий или интерьеров.
+                                Создавая различные проекты для людей, мы меняем их жизнь к лучшему.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider__block">
+                        <div class="slider__block__ramka">
+                            <h2>ПРОФЕССИОНАЛИЗМ</h2>
+                            <p>У нас высокопрофессиональная команда архитекторов, дизайнеров.
+                                Ваш проект в надежных руках.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider__block">
+                        <div class="slider__block__ramka">
+                            <h2>СОБЛЮДЕНИЕ СРОКОВ</h2>
+                            <p>Одним из наиболее важных критериев в работе над проектом является
+                             соблюдение оговоренных сроков на проектирование и реализацию проекта.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <a class="prev" onclick="minusSlide()">&#10094;</a>
+                <a class="next" onclick="plusSlide()">&#10095;</a>
+            </div>
+            
+            <div class="slider-dots">
+                <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+                <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+                <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+                <span class="slider-dots_item" onclick="currentSlide(4)"></span> 
+                <span class="slider-dots_item" onclick="currentSlide(5)"></span> 
+
+            </div>
+        </div>
+
+        <!--Подвал -->
+        <div class="Footer">
+            <div class="Feedback">
+                <div class="Feedback__button">
+                    <a href="javascript:PopUpShow()"> <button class="mail-btn" type="submit">Обратная связь</button></a>
+                </div>
+            </div>
+            <div class="Copyright">
+                <p>ООО "Компания"ВИЗАРД"-Купить онлайн-кассы под ключ </p>
+            </div>
+            <div class="Social_networks">
+                <ul>
+                    <li class="icon facebook"><a href="https://ru-ru.facebook.com/"><img src="image/facebook.svg" class="iconr"></a></li>
+                    <li class="icon twitter"><a href="https://twitter.com/explore"><img src="image/twitter.svg" class="iconr"></a></li>
+                    <li class="icon instagram"><a href="https://www.instagram.com/"><img src="image/instagram.svg" class="iconr"></a></li>
+                    <li class="icon google"><a href="https://www.google.com/intl/ru/gmail/about/"><img src="image/google.svg" class="iconr"></a></li>
+                    <li class="icon youtube"><a href="https://www.youtube.com/"><img src="image/youtube.svg" class="iconr"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Всплывающее окно обратной связи  -->
+        <div class="Feedback__form" id="form1">
+            <div class="Feedback__form__content">
+                <div class="Feedback__form__close">
+                    <a href="javascript:PopUpHide()"><img src="image/close.png"></a>
+                </div>
+                <div class="Feedback__form__input">
+                    <p>Имя</p>
+                    <input id="name" class="txt" name="name" type="name" placeholder=" ">
+                    <p>E-mail </p>
+                    <input id="email" class="txt" name="email" type="email" placeholder=" "> 
+                    <p>Телефон</p>
+                    <input id="phone" class="txt" name="phone" type="phone" placeholder=" "> 
+                    <p>Тема</p>
+                    <input id="phone" class="txt" name="phone" type="phone" placeholder=" "> 
+                    <p>Сообщение</p>
+                    <textarea id="msg" class="txtarea" name="msg" placeholder=" "></textarea>
+                    <br>
+                    <a href="#" class="glo">Отправить</a>
+                </div>
+            </div>
+        </div>
+   
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="main.js"></script>
+<script>
+    $(document).ready(function(){
+        PopUpHide();
+    });
+    function PopUpShow(){
+        $("#form1").show();
+    }
+    function PopUpHide(){
+        $("#form1").hide();
+    }
+</script>
+</html>
